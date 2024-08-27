@@ -20,7 +20,7 @@ const Cards = (props) => {
             return allCourses;
         } else {
             // main sirf specific category ka data pass karunga
-            return courses[category] || [];
+            return courses[category];
         }
     
     }
